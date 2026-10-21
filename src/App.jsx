@@ -1,4 +1,5 @@
-// import './App.css'
+import KartuNama from "./components/KartuMenu";
+import Panel from "./components/Panel";
 
 function App() {
 const jam = 9;
@@ -16,6 +17,13 @@ const jam = 9;
         <p>{elemen2}</p>
         <button disabled={true}>Bayar</button>
       </div>
+
+      
+    <Panel judul="Menu Hari Ini" >
+      <KartuNama nama="Nasi Ayam Geprek" harga={10000 + (45 * 100)}/>
+      <KartuNama nama="Es Teh Lemon" harga={6000} kategori="minuman"/>
+      <KartuNama nama="Mie Goreng" harga={120000}/>
+    </Panel>
     </>
   );
 }
