@@ -20,9 +20,9 @@ const jam = 9;
 
       
     <Panel judul="Menu Hari Ini" >
-      <KartuNama nama="Nasi Ayam Geprek" harga={10000 + (45 * 100)}/>
-      <KartuNama nama="Es Teh Lemon" harga={6000} kategori="minuman"/>
-      <KartuNama nama="Mie Goreng" harga={120000}/>
+      <KartuNama nama={'Nasi Ayam Geprek'} harga={13700}></KartuNama>
+      <KartuNama nama={'Es Teh Lemon'} harga={6000}></KartuNama>
+      <KartuNama nama={'Mie Goreng Telor'} harga={12000}></KartuNama>
     </Panel>
     </>
   );
